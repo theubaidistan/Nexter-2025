@@ -1,0 +1,31 @@
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Ignore all CSS files except style.css
+*.css
+!style.css
+
+# Ignore CSS source maps
+*.css.map
+
+# Sass cache
+.sass-cache/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
